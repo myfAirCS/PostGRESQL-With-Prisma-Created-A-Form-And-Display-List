@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body
+        background="https://images.pexels.com/photos/18962640/pexels-photo-18962640/free-photo-of-elevated-road-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <div class="formcontainer">
+            <form id="form">
+                <h1>FORM</h1>
+                <div class="name">
+                    <input type="text" name="f_name" id="f_name"
+                        placeholder="First Name">
+                    <input type="text" name="l_name" id="l_name"
+                        placeholder="Last Name">
+                </div>
+
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="number" name="phone" id="phone"
+                    placeholder="Phone Number">
+                <input type="date" name="dob" id="dob" title="Date Of Birth">
+                <select name="countries" id="country">
+                </select>
+
+                <div class="Btn"><button id="submit_button">Submit</button></div>
+
+            </form>
+
+            <div class="list">
+                <h1>LIST</h1>
+                <table id="details" border="1">
+                    <thead>
+                        <tr>
+                            <th id="id-th">
+                                ID
+                            </th>
+
+                            <th id="name-th">
+                                NAME
+                            </th>
+
+                            <th id="email-th">
+                                EMAIL
+                            </th>
+                            <th id="actions">ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Younas Faisal</td>
+                            <td>younasf69@gmail.com</td>
+                            <td><button class="edit-btn">&#x270E;</button>
+                                <button class="del-btn">&#x2717;</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <script src="variables.js"></script>
+        <script src="functions.js"></script>
+        <script src="countries.js"></script>
+        <script src="updateData.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

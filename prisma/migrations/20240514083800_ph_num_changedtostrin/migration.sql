@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Form" ALTER COLUMN "ph_Num" SET DATA TYPE TEXT;
